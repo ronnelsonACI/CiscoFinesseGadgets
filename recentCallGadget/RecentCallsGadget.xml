@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+
+<ModulePrefs title="Recent Calls"
+        description="Recent Calls Gadget"
+        thumbnail="http://localhost:8080/">
+
+    <Require feature="settitle" />
+    <Require feature="dynamic-height" />
+    <Require feature="pubsub-2" />
+	<Require feature="setprefs" />
+</ModulePrefs>
+
+<Content type="html">
+<![CDATA[
+	<!DOCTYPE html>
+	<!-- Styling -->
+    <link rel="stylesheet" href="RecentCallsGadget.css" type="text/css" />
+
+    <!-- jQuery 1.5 -->
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+   
+    <!-- Finesse Library -->
+    <script type="text/javascript" src="finesse-10.5.1.js"></script>
+
+    <!-- Gadget Business Logic -->
+    <script type="text/javascript" src="RecentCallsGadget.js"></script>
+
+    <body class="claro">
+
+    <!-- Recent Calls gadget -->
+     <table>
+     <thead>
+	     	<tr>
+	     		<th>Action</th>
+	     		<th>Number</th>
+	     		<th>Type</th>
+	    	</tr>
+    	</thead>
+    	<tbody id="recentCalls">
+    		<tr>
+    		</tr>
+    	
+    	</tbody>
+ 	</table>
+     
+    </body>
+
+    <script type="text/javascript">
+    gadgets.HubSettings.onConnect = function () {
+        finesse.modules.SampleGadget.init();
+    };
+
+    </script>
+]]>
+</Content>
+</Module>

@@ -1,0 +1,71 @@
+/**
+ * Default attributes for gadget body.
+ */
+body {
+    background: none transparent;
+    padding: 0px;
+}
+
+table{
+	width:100%;
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th{
+	text-align:center;
+	background-color: #006633;
+	color: white;
+}
+#callerInfoFieldSet
+{
+	width:500px;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#idvFieldSet
+{
+	width:300px;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#redemtpionFieldSet
+{
+	width:400px;
+    alighn:justified;
+}
+#redemtpionRight
+{
+	width:400px;
+    display:inline-block;
+}
+.pass
+{
+	background-color:green;
+	color:white;
+}
+.fail
+{
+	background-color:red;
+}
+#pass
+{
+	background-color:green;
+	color:white;
+}
+#fail
+{
+	background-color:red;
+}
+
+label
+{
+	width = 150px;
+}
+input
+{
+	width = 150px;
+}
