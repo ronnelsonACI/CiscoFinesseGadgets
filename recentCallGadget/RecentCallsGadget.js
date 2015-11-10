@@ -202,7 +202,7 @@ finesse.modules.SampleGadget = (function($) {
 						.prepend(
 								"<tr><td><button onclick=\"finesse.modules.SampleGadget.makeCall('"
 										+ retrievedCalls[i].callBackNumber
-										+ "');\"><img src='/3rdpartygadget/files/RecentCalls/phone-large.png' style='width:20px;height:20px;' alt='call "
+										+ "');\"><img src='/3rdpartygadget/resources/images/phone-large.png' style='width:20px;height:20px;' alt='call "
 										+ retrievedCalls[i].callBackNumber
 										+ "'></button></td><td>"
 										+ retrievedCalls[i].formatedNumber

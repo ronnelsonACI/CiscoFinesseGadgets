@@ -18,10 +18,10 @@
     <link rel="stylesheet" href="RecentCallsGadget.css" type="text/css" />
 
     <!-- jQuery 1.5 -->
-    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../resources/jquery-1.9.1.min.js"></script>
    
     <!-- Finesse Library -->
-    <script type="text/javascript" src="finesse-10.5.1.js"></script>
+    <script type="text/javascript" src="../resources/finesse-10.5.1.js"></script>
 
     <!-- Gadget Business Logic -->
     <script type="text/javascript" src="RecentCallsGadget.js"></script>
